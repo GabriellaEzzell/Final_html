@@ -3,6 +3,46 @@ html {
     background: gray;
 }
 
+.willHide {
+    display: none;
+}
+
+.alreadyHide1 {
+    display: none;
+}
+
+.alreadyHide2 {
+    display: none;
+}
+
+.alreadyHide3 {
+    display: none;
+}
+
+.alreadyHide4 {
+    display: none;
+}
+
+.alreadyHide5 {
+    display: none;
+}
+
+.alreadyHide6 {
+    display: none;
+}
+
+.alreadyHide7 {
+    display: none;
+}
+
+.alreadyHide8 {
+    display: none;
+}
+
+.alreadyHide9 {
+    display: none;
+}
+
 .button1 {
     color: black;
     text-align: center;
@@ -24,7 +64,6 @@ html {
     background-color: white;
     border: none;
 }
-
 
 .button3 {
     color: black;
@@ -101,4 +140,13 @@ html {
     cursor: pointer;
     background-color: white;
     border: none;
+}
+
+.buttgo {
+    color: black;
+    background-color: white;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    padding: 23 px 50 px
 }

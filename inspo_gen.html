@@ -11,41 +11,267 @@
     <body>
         <h1><strong>Creativity Generator</strong></h1>
         <hr>
-        <h2>Welcome to The Inspiration Station!</h2>
-        <h3>Here you are guided to become more inspired throughout the process of expressing your artistic interest.</h3>
-        <hr>
-        <h4>
-            <div class="button1">
-                <button class="button1"><strong>ARCHITECTURE</strong></button>
-            </div>
-            <div class="button2">
-                <button class="button2"><strong>PAINTING</strong></button>
-            </div>
-            <div class="button3">
-                <button class="button3"><strong>SCULPTURE</strong></button>
-            </div>
-            <div class="button4">
-                <button class="button4"><strong>LITERATURE</strong></button>
-            </div>
-            <div class="button5">
-                <button class="button5"><strong>DANCE</strong></button>
-            </div>
-            <div class="button6">
-                <button class="button6"><strong>THEATRE</strong></button>
-            </div>
-            <div class="button7">
-                <button class="button7"><strong>FILM</strong></button>
-            </div>
-            <div class="button8">
-                <button class="button8"><strong>PHOTOGRAPHY</strong></button>
-            </div>
-            <div class="button9"> 
-                <button class="button9"><strong>MUSIC</strong></button>
-            </div> 
-        </h4>
-        <hr>
-        <img height="600" width="1467" src="C:\Users\Gabby\Desktop\apcsp\js\js\create.png">
-        
+        <div id="div1">
+            <h2>Welcome to The Inspiration Station!</h2>
+            <h3>Here you are guided to become more inspired throughout the process of entering your artistic choices for the website to randomly choose.</h3>
+            <hr>
+            <h4>
+                <div class="button1">
+                    <button onclick="myFunction1()" class="button1"><strong>ARCHITECTURE</strong></button>
+                </div>
+                <div class="button2">
+                    <button onclick="myFunction2()" class="button2"><strong>PAINTING</strong></button>
+                </div>
+                <div class="button3">
+                    <button onclick="myFunction3()" class="button3"><strong>SCULPTURE</strong></button>
+                </div>
+                <div class="button4">
+                    <button onclick="myFunction4()" class="button4"><strong>LITERATURE</strong></button>
+                </div>
+                <div class="button5">
+                    <button onclick="myFunction5()" class="button5"><strong>DANCE</strong></button>
+                </div>
+                <div class="button6">
+                    <button onclick="myFunction6()" class="button6"><strong>THEATRE</strong></button>
+                </div>
+                <div class="button7">
+                    <button onclick="myFunction7()" class="button7"><strong>FILM</strong></button>
+                </div>
+                <div class="button8">
+                    <button onclick="myFunction8()" class="button8"><strong>PHOTOGRAPHY</strong></button>
+                </div>
+                <div class="button9"> 
+                    <button onclick="myFunction9()" class="button9"><strong>MUSIC</strong></button>
+                </div> 
+            </h4>
+            <hr>
+            <img height="600" width="1467" src="C:\Users\Gabby\Desktop\apcsp\js\js\create.png">
+        </div>
+
+        <div id="divArch" class="alreadyHide1">
+            <h1><strong>Architecture</strong></h1>
+            <hr>
+            <h2>Enter your options and the generator will select one randomly!</h2>
+            <label for="options">Enter your options:</label>
+            <input id="1" type="textarea" name="options">
+            <input id="2" type="textarea" name="options">
+            <input id="3" type="textarea" name="options">
+            <input id="4" type="textarea" name="options">
+            <input id="5" type="textarea" name="options">
+            <input id="6" type="textarea" name="options">
+            <input id="7" type="textarea" name="options">
+            <button class="buttgo">Choose for me!</button>
+            <hr>
+            <img height="600" width="1480" src="C:\Users\Gabby\Desktop\apcsp\js\js\arch.png">
+        </div>
+        <script>
+            function myFunction1() {
+                var element1 = document.getElementById("divArch");
+                element1.classList.toggle("alreadyHide1");
+                var hide = document.getElementById("div1");
+                hide.classList.add("willHide");
+            }
+        </script>
+
+        <div id="divPaint" class="alreadyHide2">
+            <h1><strong>Painting</strong></h1>
+            <hr>
+            <h2>Enter your options and the generator will select one randomly!</h2>
+            <label for="options">Enter your options:</label>
+            <input id="1" type="textarea" name="options">
+            <input id="2" type="textarea" name="options">
+            <input id="3" type="textarea" name="options">
+            <input id="4" type="textarea" name="options">
+            <input id="5" type="textarea" name="options">
+            <input id="6" type="textarea" name="options">
+            <input id="7" type="textarea" name="options">
+            <button class="buttgo">Choose for me!</button>
+            <hr>
+            <img height="600" width="1480" src="C:\Users\Gabby\Desktop\apcsp\js\js\paint.jpeg">
+        </div>
+        <script>
+            function myFunction2() {
+                var element2 = document.getElementById("divPaint");
+                element2.classList.toggle("alreadyHide2");
+                var hide = document.getElementById("div1");
+                hide.classList.add("willHide");
+            }
+        </script>
+
+        <div id="divSculpt" class="alreadyHide3">
+            <h1><strong>Sculpture</strong></h1>
+            <hr>
+            <h2>Enter your options and the generator will select one randomly!</h2>
+            <label for="options">Enter your options:</label>
+            <input id="1" type="textarea" name="options">
+            <input id="2" type="textarea" name="options">
+            <input id="3" type="textarea" name="options">
+            <input id="4" type="textarea" name="options">
+            <input id="5" type="textarea" name="options">
+            <input id="6" type="textarea" name="options">
+            <input id="7" type="textarea" name="options">
+            <button class="buttgo">Choose for me!</button>
+            <hr>
+            <img height="600" width="1480" src="C:\Users\Gabby\Desktop\apcsp\js\js\sculpt2.jpeg">
+        </div>
+        <script>
+            function myFunction3() {
+                var element3 = document.getElementById("divSculpt");
+                element3.classList.toggle("alreadyHide3");
+                var hide = document.getElementById("div1");
+                hide.classList.add("willHide");
+            }
+        </script>
+
+        <div id="divLit" class="alreadyHide4">
+            <h1><strong>Literature</strong></h1>
+            <hr>
+            <h2>Enter your options and the generator will select one randomly!</h2>
+            <label for="options">Enter your options:</label>
+            <input id="1" type="textarea" name="options">
+            <input id="2" type="textarea" name="options">
+            <input id="3" type="textarea" name="options">
+            <input id="4" type="textarea" name="options">
+            <input id="5" type="textarea" name="options">
+            <input id="6" type="textarea" name="options">
+            <input id="7" type="textarea" name="options">
+            <button class="buttgo">Choose for me!</button>
+            <hr>
+            <img height="600" width="1480" src="C:\Users\Gabby\Desktop\apcsp\js\js\lit1.jpeg">
+        </div>
+        <script>
+            function myFunction4() {
+                var element4 = document.getElementById("divLit");
+                element4.classList.toggle("alreadyHide4");
+                var hide = document.getElementById("div1");
+                hide.classList.add("willHide");
+            }
+        </script>
+
+        <div id="divDance" class="alreadyHide5">
+            <h1><strong>Dance</strong></h1>
+            <hr>
+            <h2>Enter your options and the generator will select one randomly!</h2>
+            <label for="options">Enter your options:</label>
+            <input id="1" type="textarea" name="options">
+            <input id="2" type="textarea" name="options">
+            <input id="3" type="textarea" name="options">
+            <input id="4" type="textarea" name="options">
+            <input id="5" type="textarea" name="options">
+            <input id="6" type="textarea" name="options">
+            <input id="7" type="textarea" name="options">
+            <button class="buttgo">Choose for me!</button>
+            <hr>
+            <img height="600" width="1480" src="C:\Users\Gabby\Desktop\apcsp\js\js\dance.jpeg">
+        </div>
+        <script>
+            function myFunction5() {
+                var element5 = document.getElementById("divDance");
+                element5.classList.toggle("alreadyHide5");
+                var hide = document.getElementById("div1");
+                hide.classList.add("willHide");
+            }
+        </script>
+
+        <div id="divTheatre" class="alreadyHide6">
+            <h1><strong>Theatre</strong></h1>
+            <hr>
+            <h2>Enter your options and the generator will select one randomly!</h2>
+            <label for="options">Enter your options:</label>
+            <input id="1" type="textarea" name="options">
+            <input id="2" type="textarea" name="options">
+            <input id="3" type="textarea" name="options">
+            <input id="4" type="textarea" name="options">
+            <input id="5" type="textarea" name="options">
+            <input id="6" type="textarea" name="options">
+            <input id="7" type="textarea" name="options">
+            <button class="buttgo">Choose for me!</button>
+            <hr>
+            <img height="600" width="1480" src="C:\Users\Gabby\Desktop\apcsp\js\js\theatre.jpeg">
+        </div>
+        <script>
+            function myFunction6() {
+                var element6 = document.getElementById("divTheatre");
+                element6.classList.toggle("alreadyHide6");
+                var hide = document.getElementById("div1");
+                hide.classList.add("willHide");
+            }
+        </script>
+
+        <div id="divFilm" class="alreadyHide7">
+            <h1><strong>Film</strong></h1>
+            <hr>
+            <h2>Enter your options and the generator will select one randomly!</h2>
+            <label for="options">Enter your options:</label>
+            <input id="1" type="textarea" name="options">
+            <input id="2" type="textarea" name="options">
+            <input id="3" type="textarea" name="options">
+            <input id="4" type="textarea" name="options">
+            <input id="5" type="textarea" name="options">
+            <input id="6" type="textarea" name="options">
+            <input id="7" type="textarea" name="options">
+            <button class="buttgo">Choose for me!</button>
+            <hr>
+            <img height="600" width="1480" src="C:\Users\Gabby\Desktop\apcsp\js\js\film2.png">
+        </div>
+        <script>
+            function myFunction7() {
+                var element7 = document.getElementById("divFilm");
+                element7.classList.toggle("alreadyHide7");
+                var hide = document.getElementById("div1");
+                hide.classList.add("willHide");
+            }
+        </script>
+
+        <div id="divPhoto" class="alreadyHide8">
+            <h1><strong>Photography</strong></h1>
+            <hr>
+            <h2>Enter your options and the generator will select one randomly!</h2>
+            <label for="options">Enter your options:</label>
+            <input id="1" type="textarea" name="options">
+            <input id="2" type="textarea" name="options">
+            <input id="3" type="textarea" name="options">
+            <input id="4" type="textarea" name="options">
+            <input id="5" type="textarea" name="options">
+            <input id="6" type="textarea" name="options">
+            <input id="7" type="textarea" name="options">
+            <button class="buttgo">Choose for me!</button>
+            <hr>
+            <img height="600" width="1480" src="C:\Users\Gabby\Desktop\apcsp\js\js\photo.jpeg">
+        </div>
+        <script>
+            function myFunction8() {
+                var element8 = document.getElementById("divPhoto");
+                element8.classList.toggle("alreadyHide8");
+                var hide = document.getElementById("div1");
+                hide.classList.add("willHide");
+            }
+        </script>
+
+        <div id="divMusic" class="alreadyHide9">
+            <h1><strong>Music</strong></h1>
+            <hr>
+            <h2>Enter your options and the generator will select one randomly!</h2>
+            <label for="options">Enter your options:</label>
+            <input id="1" type="textarea" name="options">
+            <input id="2" type="textarea" name="options">
+            <input id="3" type="textarea" name="options">
+            <input id="4" type="textarea" name="options">
+            <input id="5" type="textarea" name="options">
+            <input id="6" type="textarea" name="options">
+            <input id="7" type="textarea" name="options">
+            <button class="buttgo">Choose for me!</button>
+            <hr>
+            <img height="600" width="1480" src="C:\Users\Gabby\Desktop\apcsp\js\js\music.jpeg">
+        </div>
+        <script>
+            function myFunction9() {
+                var element9 = document.getElementById("divMusic");
+                element9.classList.toggle("alreadyHide9");
+                var hide = document.getElementById("div1");
+                hide.classList.add("willHide");
+            }
+        </script>
     </body>
 
 </html>
